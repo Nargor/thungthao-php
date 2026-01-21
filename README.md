@@ -27,7 +27,7 @@ starter with layouts, pages (file-based routing), components, controllers, compo
 ## Quick Start
 ```bash
 # create a new project
-composer create-project webdernargor/thungthao
+composer create-project nargor/thungthao-php
 
 # copy environment template
 cp example.env .env   # Windows PowerShell: Copy-Item example.env .env
@@ -133,7 +133,7 @@ echo $params['id'] ?? '';
 - Avoid modifying `includes/` unless you intend to change the framework internals.
 
 ## License (Owner‑Managed)
-- The project owner [@WEBDERNargor](https://github.com/WEBDERNargor) manages the license terms.
+- The project owner [@Nargor](https://github.com/Nargor) manages the license terms.
 - Current status: **Free to use** (personal or commercial) and modify within your projects. Attribution is appreciated.
 - Future changes: License terms may change at your discretion. New releases may adopt new terms; previously released versions remain governed by the terms under which they were published.
 - Provided “as is”, without warranty of any kind. Use at your own risk.
@@ -143,4 +143,4 @@ If you formalize terms later, add a dedicated `LICENSE` file and update this sec
 
 
 ## Authors
-- [@WEBDERNargor](https://github.com/WEBDERNargor)
+- [@Nargor](https://github.com/Nargor)
