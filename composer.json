@@ -1,0 +1,35 @@
+{
+    "name": "webdernargor/thungthao",
+    "description": "PHP page layout components system clone form nuxt starter code",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "."
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "firebase/php-jwt": "^6.11",
+        "flowjs/flow-php-server": "*",
+        "intervention/image": "^2.7",
+        "james-heinrich/getid3": "^1.9",
+        "cboden/ratchet": "^0.4.4",
+        "workerman/workerman": "^5.1"
+    },
+    "require-dev": {
+        "php": ">=7.0"
+    },
+    "scripts": {
+        "web": "php serve.php",
+        "vanilla": "php build-vanilla.php",
+        "post-autoload-dump": [
+        "echo 'Autoload dumped successfully!'"
+    ],
+    "post-create-project-cmd": [
+        "@php -r \"if (!file_exists('.env') && file_exists('example.env')) { copy('example.env', '.env'); echo '.env created'.PHP_EOL; }\""
+    ]
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}

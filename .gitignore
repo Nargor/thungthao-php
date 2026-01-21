@@ -1,0 +1,13 @@
+
+/vendor/
+/protect/uploads/chat/
+/protect/uploads/posts/
+/protect/uploads/temp/
+/protect/uploads/thumbnails/
+/protect/uploads/artworks/
+/protect/uploads/profiles/
+/ffmpeg/
+/build/
+.env
+workerman.log
+composer.lock
