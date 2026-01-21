@@ -1,5 +1,5 @@
 {
-    "name": "webdernargor/thungthao",
+    "name": "nargor/thungthao",
     "description": "PHP page layout components system clone form nuxt starter code",
     "type": "project",
     "autoload": {
